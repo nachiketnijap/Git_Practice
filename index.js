@@ -3,5 +3,9 @@ let age=25
 
 let a=2;
 let b=4;
-let result=a+b;
+function add(a,b){
+  return a+b;
+}
 
+
+exports.module= {add}
